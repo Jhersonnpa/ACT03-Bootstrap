@@ -1,0 +1,118 @@
+/* IDs Generales */
+
+.margin-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.padding-fotos {
+    padding: 0;
+}
+
+section {
+    padding-top: 6%;
+    width: 100%;
+    color: #fff;
+    background-color: #444;
+}
+
+/* NavBar */
+
+.navbar {
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Color del nav incluido hover */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: rgba(94, 156, 154, 5);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgba(94, 156, 154, 5);
+}
+
+#li-active {
+    background-color: black;
+}
+
+#li-active a{
+    color: rgba(94, 156, 154, 5);
+}
+
+/* Header */
+.portrait {
+    position: relative;
+    width: 100%;
+}
+
+.text-header {
+    position: absolute;
+    right: 0;
+    top: 41%;
+    width: 48%;
+    color: #fff;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.text-header p{
+    font-weight: 500;
+    margin:0;
+    font-size: 1.15em;
+}
+
+.text-header p:first-child {
+    color: rgba(255, 255, 255, 0.41);
+}
+
+/* Section Task */
+
+.glyphicon {
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Section Try me xs */
+
+.flex-section {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flex-section div {
+    width: 30%;
+}
+
+.flex-section div:first-child{
+    align-self: flex-end;
+}
+
+/* Modal */
+
+.modal-container {
+    width: 100%;
+    color: #444;
+    padding: 30px 0;
+    background-color: #444;
+}
+
+/* Footer */
+.bg-footer {
+    background-color: black;
+    color: #fff;
+    padding: 7px 0 3px 0;
+}
